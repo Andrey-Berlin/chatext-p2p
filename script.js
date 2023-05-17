@@ -29,8 +29,9 @@
   };
 
 let room, peerConnection;
-let roomName = "observable-" + prompt("ВВЕДИТЕ НОМЕР КОМНАТЫ. НОМЕР КОМНАТЫ АДМИНА 7");
-let userName = prompt("ВАШ НИК В ЧАТЕ" ) || "no_name";
+let roomName = "observable-" + prompt("ВВЕДИТЕ НОМЕР КОМНАТЫ. НОМЕР КОМНАТЫ АДМИНА 7 
+.ENTER ROOM NUMBER.  ADMIN ROOM NUMBER 7");
+let userName = prompt("ВАШ НИК В ЧАТЕ. YOU NICKNAME." ) || "no_name";
 
 console.log(roomName);
 
