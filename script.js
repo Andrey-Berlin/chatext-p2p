@@ -29,7 +29,7 @@
   };
 
 let room, peerConnection;
-let roomName = "observable-" + "open" /*prompt("")+/; 
+let roomName = "observable-" + prompt("please click 'ok'. НАЖМИТЕ ПОЖАЛУЙСТА 'ok'"); 
 let userName = prompt("ВАШ НИК В ЧАТЕ. YOU NICKNAME." ) || "no_name";
 
 console.log(roomName);
