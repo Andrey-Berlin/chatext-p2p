@@ -36,7 +36,7 @@ console.log(roomName);
 
 console.log(userName);
 // One instance of Scaledrone establishes a single connection, takes parameter 'CHANNEL_ID_FROM_DASHBOARD'.
-let drone = new ScaleDrone("hjAHO3YWZBo7AtCV", {
+let drone = new ScaleDrone("11aJkRc9Rb1IKmIN", {
   data: {
     name: userName
   }
